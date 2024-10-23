@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
   return (
     <div className="pb-4">
-      <motion.h2
+      {/* <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
@@ -48,7 +48,7 @@ const Projects = () => {
             </motion.div>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
